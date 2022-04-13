@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cat_item"
+    android:layout_width="220dp"
+    android:layout_height="220dp"
+    android:layout_marginEnd="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:id="@+id/res_item_image"
+            android:layout_width="220dp"
+            android:layout_height="130dp"
+            android:src="@drawable/restaurant_one"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/res_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:textColor="#1b2d3f"
+            android:textSize="16sp"
+            android:gravity="start"
+            android:text="Piccola Cucina" />
+
+
+        <TextView
+            android:id="@+id/res_item_address_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="#1b2d3f"
+            android:textSize="12sp"
+            android:gravity="start"
+            android:text="583 Lilac St." />
+
+        <TextView
+            android:id="@+id/res_item_address_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="#1b2d3f"
+            android:textSize="12sp"
+            android:gravity="start"
+            android:text="Massapequa, NY 11758" />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/ic_phone"
+        />
+</androidx.cardview.widget.CardView>
